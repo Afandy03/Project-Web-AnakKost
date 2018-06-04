@@ -1,0 +1,18 @@
+html{
+}
+
+body {
+ 
+  /* padding-top: 54px; */
+  /* padding-left: 54px;
+  padding-right: 54px; */
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.cek{
+  color:red;
+}
