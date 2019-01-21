@@ -22,6 +22,12 @@
             <li class="nav-item">
               <a class="nav-link" href="<?php echo web; ?>akun-register">Register</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo web; ?>blog">Tentang Kami</a>
+            </li>
+
+
           </ul>
           <!-- <form action="" class="form-inline">
         <input type="text" class="form-control mr-sm-2" placeholder="search">

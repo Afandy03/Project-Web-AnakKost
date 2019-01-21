@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 03, 2018 at 04:25 PM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.1.10
+-- Generation Time: Jan 21, 2019 at 01:46 AM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -126,7 +126,8 @@ CREATE TABLE `order` (
 --
 
 INSERT INTO `order` (`idTransaksi`, `tglOrder`, `harga`, `status`, `idUser`, `idKost`) VALUES
-(2, '2018-06-03', 600000, 0, 2, 6);
+(2, '2018-06-03', 600000, 0, 2, 6),
+(3, '2018-12-19', 650000, 1, 1, 8);
 
 -- --------------------------------------------------------
 
@@ -169,7 +170,8 @@ CREATE TABLE `wishlist` (
 INSERT INTO `wishlist` (`idKost`, `idUser`) VALUES
 (1, 1),
 (1, 2),
-(6, 2);
+(6, 2),
+(8, 1);
 
 --
 -- Indexes for dumped tables
@@ -236,7 +238,7 @@ ALTER TABLE `kost`
 -- AUTO_INCREMENT for table `order`
 --
 ALTER TABLE `order`
-  MODIFY `idTransaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `idTransaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `user`
